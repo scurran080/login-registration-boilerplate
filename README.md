@@ -28,7 +28,7 @@ const pool = new Pool({
 	password:"databasePassword",
 	host:"locathost",
 	port:5432,
-	databse:"databaseName"
+	database:"databaseName"
 });
 
 module.exports = pool;
